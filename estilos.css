@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    width: 160px;
+    height: 145px;
+}
+
+.banner-mcflurry {
+    text-align: center;
+    margin: 55px 0px;
+}
+
+.banner {
+    width: 58%;
+    height: 280px;
+    border: 2px solid #a7a7a7;
+    border-radius: 15px;
+}    
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(1, 0fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    position: relative;
+    bottom: 342px;
+}
+
+.nav-btn {
+    width: 160px;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-btn:active {
+    background: rgb(200, 199, 199);
+}
+
+nav button img {
+    width: 80px;
+    height: 48px;
+}
+
+nav button h1 {
+    font-size: 13px;
+}
+
+section {
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+}
+
+section h1 {
+    padding: 26px 0px;
+    position: relative;
+    right: 151px;
+    font-size: 51px;
+}
+
+section p {
+    position: relative;
+    right: 278px;
+    font-size: 22px;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+    position: relative;
+}
+
+section li {
+    padding: 0px 15px;
+}
+
+section button {
+    border-radius: 27px;
+    border: 3px solid rgb(201, 201, 201);
+    background: #ffffff;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+}
+
+section button:active {
+    border: 3px solid gray;
+    background: rgb(207, 203, 203);
+}
+
+main {
+    text-align: center;
+    position: relative;
+    bottom: 725px;
+}
+
+main span {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.main-1 {
+    margin: 0% 15%;
+}
+
+.main-btn-1 {
+    width: 256px;
+    height: 274px;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.main-btn-1:active {
+    background: rgb(207, 203, 203);
+}
+
+.main-2 {
+    margin: 2% 10%;
+}
+
+.main-3 {
+    margin: 2% 10%;
+}
+
+.main-4 {
+    margin: 2% 10%;
+}
+
+.main-5 {
+    margin: 2% 21%;
+}
+
+.main-6 {
+    margin: 2% 21%;
+}
+
+.main-7 {
+    margin: 2% 21%;
+}
+
+.main-8 {
+    margin: 2% 21%;
+}
+
+.main-9 {
+    margin: 2% 15%; 
+}
+
+main img {
+    position: relative;
+    width: 160px;
+    height: 156px;
+    border-radius: 10px
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    background: rgb(255, 255, 255);
+}
+
+.log-in {
+    border-radius: 10px;
+    background: yellow;
+    width: 15%;
+    cursor: pointer;
+    margin: 0px 15%;
+}
+
+.log-in:active {
+    background: rgb(223, 201, 4);
+}
+
+.log-in i {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin: 30px 0px;
+}
+
+.log-in p {
+    text-align: center;
+    margin: 10px 0px;
+} 
+
+.log-in h1 {
+    text-align: center;
+}
+
+.price {
+    font-size: 31px;
+    text-align: center;
+}
+
+footer ul li {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(95px, auto);
+    padding: 0px 26px;
+}  
+
+footer ul {
+    padding: 55px 0px;
+}
+
+footer button {
+    width: 275px;
+    height: 45px;
+    cursor: pointer;
+    border: 2px solid #0d0d00;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+footer ul li i {
+    color: rgb(47, 186, 233);
+    font-size: 15px;
+}
+
+.btn-buy {
+    background: rgb(223, 201, 4);
+    height: 65px;
+    opacity: 0.3;
+}
+
+.btn-buy:active {
+    box-shadow: 0px 0px 30px 20px rgb(223, 201, 4);
+    opacity: 1;
+}
+
+.footer-txt {
+    display: inline;
+    position: relative;
+    top: 74%;
+    right: 628px;
+    height: 0px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.servicios {
+    display: flex;
+    align-items: end;
+    position: relative;
+    top: 20%;
+    left: 4%;
+}
+
+.servicios i {
+    font-size: 37px;
+    cursor: pointer;
+    color: #dd241f;
+}
